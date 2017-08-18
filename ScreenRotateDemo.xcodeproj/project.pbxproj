@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE851BAB1F45758C00D3D25E /* LandScapePresentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FE851BAA1F45758C00D3D25E /* LandScapePresentVC.m */; };
 		FE888EDB1F45382900B63579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE888EDA1F45382900B63579 /* main.m */; };
 		FE888EDE1F45382900B63579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE888EDD1F45382900B63579 /* AppDelegate.m */; };
-		FE888EE11F45382900B63579 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE888EE01F45382900B63579 /* ViewController.m */; };
 		FE888EE41F45382900B63579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE888EE21F45382900B63579 /* Main.storyboard */; };
 		FE888EE61F45382900B63579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE888EE51F45382900B63579 /* Assets.xcassets */; };
 		FE888EE91F45382900B63579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE888EE71F45382900B63579 /* LaunchScreen.storyboard */; };
+		FE888EF71F45387600B63579 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE888EF21F45387600B63579 /* BaseNavigationController.m */; };
+		FE888EF81F45387600B63579 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE888EF41F45387600B63579 /* BaseTabBarController.m */; };
+		FE888EF91F45387600B63579 /* ScreenRotateNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE888EF61F45387600B63579 /* ScreenRotateNavController.m */; };
+		FE888EFD1F4539D200B63579 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE888EFC1F4539D200B63579 /* HomeViewController.m */; };
+		FE888F031F453A0A00B63579 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE888F021F453A0A00B63579 /* MineViewController.m */; };
+		FE888F061F45618500B63579 /* LandScapePushVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FE888F051F45618500B63579 /* LandScapePushVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE851BA91F45758C00D3D25E /* LandScapePresentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandScapePresentVC.h; sourceTree = "<group>"; };
+		FE851BAA1F45758C00D3D25E /* LandScapePresentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandScapePresentVC.m; sourceTree = "<group>"; };
 		FE888ED61F45382900B63579 /* ScreenRotateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenRotateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE888EDA1F45382900B63579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE888EDC1F45382900B63579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE888EDD1F45382900B63579 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FE888EDF1F45382900B63579 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FE888EE01F45382900B63579 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FE888EE31F45382900B63579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE888EE51F45382900B63579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE888EE81F45382900B63579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE888EEA1F45382900B63579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE888EF11F45387600B63579 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		FE888EF21F45387600B63579 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		FE888EF31F45387600B63579 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		FE888EF41F45387600B63579 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		FE888EF51F45387600B63579 /* ScreenRotateNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenRotateNavController.h; sourceTree = "<group>"; };
+		FE888EF61F45387600B63579 /* ScreenRotateNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenRotateNavController.m; sourceTree = "<group>"; };
+		FE888EFB1F4539D200B63579 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FE888EFC1F4539D200B63579 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FE888F011F453A0A00B63579 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		FE888F021F453A0A00B63579 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		FE888F041F45618500B63579 /* LandScapePushVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandScapePushVC.h; sourceTree = "<group>"; };
+		FE888F051F45618500B63579 /* LandScapePushVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandScapePushVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +76,10 @@
 		FE888ED81F45382900B63579 /* ScreenRotateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FE888EFA1F45395300B63579 /* MainClass */,
+				FE888EF01F45387600B63579 /* BaseVC */,
 				FE888EDC1F45382900B63579 /* AppDelegate.h */,
 				FE888EDD1F45382900B63579 /* AppDelegate.m */,
-				FE888EDF1F45382900B63579 /* ViewController.h */,
-				FE888EE01F45382900B63579 /* ViewController.m */,
 				FE888EE21F45382900B63579 /* Main.storyboard */,
 				FE888EE51F45382900B63579 /* Assets.xcassets */,
 				FE888EE71F45382900B63579 /* LaunchScreen.storyboard */,
@@ -77,6 +95,34 @@
 				FE888EDA1F45382900B63579 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE888EF01F45387600B63579 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				FE888EF11F45387600B63579 /* BaseNavigationController.h */,
+				FE888EF21F45387600B63579 /* BaseNavigationController.m */,
+				FE888EF31F45387600B63579 /* BaseTabBarController.h */,
+				FE888EF41F45387600B63579 /* BaseTabBarController.m */,
+				FE888EF51F45387600B63579 /* ScreenRotateNavController.h */,
+				FE888EF61F45387600B63579 /* ScreenRotateNavController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		FE888EFA1F45395300B63579 /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+				FE888EFB1F4539D200B63579 /* HomeViewController.h */,
+				FE888EFC1F4539D200B63579 /* HomeViewController.m */,
+				FE888F011F453A0A00B63579 /* MineViewController.h */,
+				FE888F021F453A0A00B63579 /* MineViewController.m */,
+				FE888F041F45618500B63579 /* LandScapePushVC.h */,
+				FE888F051F45618500B63579 /* LandScapePushVC.m */,
+				FE851BA91F45758C00D3D25E /* LandScapePresentVC.h */,
+				FE851BAA1F45758C00D3D25E /* LandScapePresentVC.m */,
+			);
+			path = MainClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +156,7 @@
 				TargetAttributes = {
 					FE888ED51F45382900B63579 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2M227336GQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,9 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE888EE11F45382900B63579 /* ViewController.m in Sources */,
+				FE888F061F45618500B63579 /* LandScapePushVC.m in Sources */,
+				FE851BAB1F45758C00D3D25E /* LandScapePresentVC.m in Sources */,
+				FE888EF81F45387600B63579 /* BaseTabBarController.m in Sources */,
+				FE888EF71F45387600B63579 /* BaseNavigationController.m in Sources */,
+				FE888EF91F45387600B63579 /* ScreenRotateNavController.m in Sources */,
 				FE888EDE1F45382900B63579 /* AppDelegate.m in Sources */,
+				FE888EFD1F4539D200B63579 /* HomeViewController.m in Sources */,
 				FE888EDB1F45382900B63579 /* main.m in Sources */,
+				FE888F031F453A0A00B63579 /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -274,10 +327,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M227336GQ;
 				INFOPLIST_FILE = ScreenRotateDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.find.ScreenRotateDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -285,10 +340,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M227336GQ;
 				INFOPLIST_FILE = ScreenRotateDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.find.ScreenRotateDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -311,6 +368,7 @@
 				FE888EEF1F45382900B63579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

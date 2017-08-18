@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MineViewController.h
 //  ScreenRotateDemo
 //
 //  Created by chh on 2017/8/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MineViewController : UIViewController
 
 @end
-

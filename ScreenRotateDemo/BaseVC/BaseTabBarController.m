@@ -47,9 +47,6 @@
     [self addChildViewController:baseNav];
 }
 
-//- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
-//    return UIInterfaceOrientationPortrait;
-//}
 
 -(BOOL)shouldAutorotate{
 
